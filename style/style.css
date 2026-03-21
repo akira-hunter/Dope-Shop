@@ -1,0 +1,77 @@
+body, html {
+  height: 100%;
+}
+
+
+
+.bg-image {
+  background-image: url("background.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.join-me-button {
+  background-color: rgb(19, 191, 214);
+  color: white;
+  border-radius: 4px;
+  position: relative;
+  left: 1260px;
+  border-width: 1px;
+  border-color: rgb(19, 191, 214);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  position: absolute;
+  top:1%;
+  left: 94%;
+  z-index: 2;
+}
+
+.join-me-button:hover{
+  color: rgb(19, 191, 214);
+  background-color: white;
+}
+
+p {
+  font-family: arial;
+  color: aliceblue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 40%;
+  left: 3%;
+}
+
+.order-paragraph{
+  font-size: 17px;
+  padding-top: 10px;
+  top: 55%;
+}
+.touchless-delivery{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.title-name {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+
+}
+
+.first-paragraph {
+  margin-top: 20px;
+  font-size: 17px;
+  top: 270px;
+}
