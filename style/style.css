@@ -30,8 +30,8 @@ body, html {
   cursor: pointer;
   transition: background-color 0.15s, color 0.15s;
   position: absolute;
-  top:1%;
-  left: 94%;
+  top:10px;
+  left: 1200px;
   z-index: 2;
   display: flex;
 }
@@ -48,15 +48,15 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
   position: absolute;
-  top: 40%;
-  left: 3%;
+  top: 300px;
+  left: 30px;
   display: flex;
 }
 
 .order-paragraph{
   font-size: 17px;
   padding-top: 10px;
-  top: 55%;
+  top: 355px;
   display: flex;
 }
 .touchless-delivery{
@@ -71,8 +71,8 @@ p {
   font-weight: bold;
   font-size: 80px;
   position: absolute;
-  top: 10%;
-  left: 35%;
+  top: 100px;
+  left: 460px;
   display: flex;
 }
 
